@@ -6,10 +6,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
+
+
 ReactDOM.render(
-  <React.StrictMode>
+  
     <App/>
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 serviceWorker.unregister();
